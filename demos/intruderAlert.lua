@@ -10,7 +10,7 @@ mon.clear()
 mon.setTextColor(colors.red)
 
 -- Play the music
-music:play()
+sound:play()
 
 ---Write text on Monitor
 mf.writeOn(mon,  "!!!INTRUDER DETECTED!!!", nil, nil, {font = "fonts/Silkscreen", textAlign = "center", condense = true})
