@@ -7,7 +7,7 @@ local sound = nbsTunes.load("tunes/redAlarm.nbs")
 mon = peripheral.wrap("monitor_4")
 sound:stop()
 mon.clear()
-mon setTextColor(colors.red)
+mon.setTextColor(colors.red)
 
 -- Play the music
 music:play()
