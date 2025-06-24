@@ -13,4 +13,4 @@ mon.setTextColor(colors.red)
 sound:play()
 
 ---Write text on Monitor
-mf.writeOn(mon,  "!!!INTRUDER DETECTED!!!", nil, nil, {font = "fonts/Silkscreen", textAlign = "center", condense = true})
+mf.writeOn(mon,  "!!!INTRUDER DETECTED!!!", nil, nil, {font = "../fonts/Silkscreen", textAlign = "center", condense = true})
