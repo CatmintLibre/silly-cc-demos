@@ -6,7 +6,7 @@ mon.clear()
 mon.setTextColor(colors.red)
 
 -- Play the alarm
-while true do
+if rs.getInput("back", false) then
     rs.setOutput("bottom", true)
 end
 -- Write text on Monitor
