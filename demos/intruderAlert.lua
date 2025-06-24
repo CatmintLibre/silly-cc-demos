@@ -1,7 +1,7 @@
 local mf = require(".morefonts") ---requires https://pinestore.cc/projects/37/more-fonts
 local nbsTunes = require(".nbsTunes") -- requires https://pinestore.cc/projects/18/nbs-tunes
 
-local sound = nbsTunes.load("tunes/redAlarm.nbs")
+local sound = nbsTunes.load("/tunes/redAlarm.nbs")
 
 ---Define monitor, clear it and define text color
 mon = peripheral.wrap("monitor_0")
