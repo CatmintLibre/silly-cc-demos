@@ -1,6 +1,6 @@
-local mf = require("morefonts") --requires https://pinestore.cc/projects/37/more-fonts
+local mf = require(".morefonts") --requires https://pinestore.cc/projects/37/more-fonts
 --Define monitor, clear it and define text color
-mon = peripheral.wrap("monitor_4")
+mon = peripheral.wrap("monitor_0")
 mon.clear()
 mon.setTextColor(colors.lightBlue)
 --Write text on Monitor
